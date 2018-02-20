@@ -1,5 +1,10 @@
 jQuery(function($){
+	angka = '';
 	$('#angka').keyup(function(){
-		$('.hasil').html($(this).val());
+		angka = $(this).val();
+		$('.hasil').html(angka);
+		if ($('.hasil').html() == ''){
+			$(this).html('0');
+		}
 	});
 });
