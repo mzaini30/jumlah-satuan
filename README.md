@@ -1,0 +1,1 @@
+Aplikasi ini akan menjumlahkan secara otomatis setiap angka yang berada di dalam kolom pengisian.
